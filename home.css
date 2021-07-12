@@ -1,16 +1,5 @@
 :root {
     --theme-color: white;
-    background-color: black;
-    color: white;
-    background-size: 100%;
-}
-
-#downbad {
-    float: left;
-}
-
-#rage {
-    float: center;
 }
 
 #FAQ h2 {
