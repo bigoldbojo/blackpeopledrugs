@@ -1,5 +1,7 @@
 :root {
-    --theme-color: #213687;
+    --theme-color: white;
+    background-color: black;
+    color: white;
     background-size: 100%;
 }
 
@@ -31,28 +33,28 @@
 
 #FAQ .FAQ-Q {
     margin: 0 0 6px 0;
-    color: white;
+    color: black;
 }
 
 #FAQ .FAQ-A {
     margin: 6px 0 0 0;
-    color: white;
+    color: black;
 }
 
 #FAQ a:link {
-    color: white;
+    color: black;
 }
 
 #FAQ a:visited {
-    color: white;
+    color: black;
 }
 
 #FAQ a:hover {
-    color: white;
+    color: black;
 }
 
 #FAQ a:active {
-    color: white;
+    color: black;
 }
 
 #FAQ .QnA {
