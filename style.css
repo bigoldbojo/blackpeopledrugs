@@ -145,7 +145,7 @@
     border-radius: 24px;
 }
 
-#content > p, h1, h2, #content > h3, #content > img {
+#content > p, h1, h2, #content > h3, #content > img, #content > video {
     padding: 6px 0px;
     margin: 0 12px;
 }
