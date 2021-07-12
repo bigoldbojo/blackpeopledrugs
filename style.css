@@ -91,13 +91,13 @@
     margin: 24px 6px;
 }
 
-#navigation button#collapse {
+#navigation button#collapseButon {
     background-color: #333;
     color: white;
     display: none;
 }
 
-#navigation button#expand {
+#navigation button#expandButton {
     background-color: #fff;
     color: black;
     display: inline-block;
