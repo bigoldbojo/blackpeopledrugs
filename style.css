@@ -22,6 +22,16 @@
     color: var(--theme-color);
 }
 
+#header h1 {
+    text-align: center;
+    align-items: flex-start;
+    position: relative;
+    padding: 0 auto;
+    /*font-family: 'Lucida Sans';*/
+    font-size: 100px;
+    color: var(--theme-color);
+}
+
 #navigation {
     position: fixed;
     display: block;
@@ -138,6 +148,18 @@
 #content p {
     padding: 6px 0px;
     margin: 0 auto;
+}
+
+a:link, a:visited {
+    color: #fff
+}
+
+a:hover {
+    color: #aaa
+}
+
+a:active {
+    color: #ddd
 }
 
 #footer {
