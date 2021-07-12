@@ -48,6 +48,7 @@
 
 #FAQ img {
     margin: 6px 0 0;
+    border-radius: 6px;
 }
 
 #FAQ .QnA {
