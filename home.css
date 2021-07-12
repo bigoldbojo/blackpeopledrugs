@@ -46,6 +46,10 @@
     color: black;
 }
 
+#FAQ img {
+    margin: 6px 0 0;
+}
+
 #FAQ .QnA {
     color: black;
     margin: 12px auto;
