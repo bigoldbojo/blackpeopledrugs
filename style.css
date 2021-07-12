@@ -19,9 +19,11 @@
     position: fixed;
     display: block;
     margin: 0 0;
-    top: 6px;
+    top: 0px;
+    left: 0px;
     width: 100%;
     z-index: 1;
+    background-color: #222c;
 }
 
 #navigation ul {
@@ -36,7 +38,7 @@
 
 #navigation ul li {
     background-color: #1110;
-    margin: 0;
+    margin: 6px 0px;
     padding: 0;
     display: inline-block;
 }
@@ -59,17 +61,17 @@
 }
 
 #navigation ul li a:hover {
-    background-color: #777;
+    background-color: #555;
     color: white;
 }
 
 #navigation ul li a.active {
-    background-color: #222;
+    background-color: #333;
     color: white;
 }
 
 #navigation ul li a:active {
-    background-color: #444;
+    background-color: #111;
     color: white;
 }
 
