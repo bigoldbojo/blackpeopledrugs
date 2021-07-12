@@ -150,6 +150,10 @@
     margin: 0 12px;
 }
 
+a, button {
+    transition: 0.05s;
+}
+
 a:link, a:visited {
     color: #fff
 }
