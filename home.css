@@ -57,7 +57,7 @@
 
 #FAQ .QnA, #footer p {
     color: black;
-    margin: 6px 0;
+    margin: 12px auto;
     padding: 12px;
     background-color: var(--theme-color); /* please work for the love of God */
     background-image: linear-gradient(to right, white , #888);
