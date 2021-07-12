@@ -69,6 +69,10 @@
     width: calc(calc(4 / 3) * 100vh); /* Please work I beg you */
     display: block;
     margin: 0 auto;
+    padding: 12px;
+    background-color: var(--theme-color); /* please work for the love of God */
+    background-image: linear-gradient(#555 , black);
+    border-radius: 12px;
 }
 
 #footer {
