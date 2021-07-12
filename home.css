@@ -33,12 +33,10 @@
 
 #FAQ .FAQ-Q {
     margin: 0 0 6px 0;
-    color: black;
 }
 
 #FAQ .FAQ-A {
     margin: 6px 0 0 0;
-    color: black;
 }
 
 #FAQ a:link {
@@ -57,10 +55,12 @@
     color: black;
 }
 
-#FAQ .QnA {
+#FAQ .QnA, #footer p {
+    color: black;
     margin: 6px 0;
     padding: 12px;
     background-color: var(--theme-color); /* please work for the love of God */
+    background-image: linear-gradient(to right, white , #888);
     width: auto;
     border-radius: 12px;
 }

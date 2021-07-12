@@ -1,5 +1,5 @@
 :root {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 
 #header {
@@ -23,12 +23,6 @@
     z-index: 1;
 }
 
-#content {
-    width: calc(calc(4 / 3) * 100vh); /* Please work I beg you */
-    display: block;
-    margin: 0 auto;
-}
-
 #navigation ul {
     list-style-type: none;
     margin: 0 auto;
@@ -48,7 +42,7 @@
 
 #navigation ul li a {
     display: block;
-    color: white;
+    color: black;
     border-radius: 12px;
     text-align: center;
     padding: 14px 16px;
@@ -56,32 +50,40 @@
 }
 
 #navigation ul li a:link {
-    background-color: #213687;
+    background-color: #fff;
 }
 
 #navigation ul li a:visited {
-    background-color: #213687;
+    background-color: #fff;
 }
 
 #navigation ul li a:hover, #navigation ul li a.active {
-    background-color: #909ac3;
+    background-color: #ccc;
 }
 
 #navigation ul li a:active {
-    background-color: #909ac3;
+    background-color: #ccc;
+}
+
+#content {
+    width: calc(calc(4 / 3) * 100vh); /* Please work I beg you */
+    display: block;
+    margin: 0 auto;
 }
 
 #footer {
-    width: 100%;
+    width: calc(calc(4 / 3) * 100vh);
+    display: block;
+    margin: auto;
 }
 
 #footer p {
-    width: calc(calc(4 / 3) * 100vh);
+    /*width: calc(calc(4 / 3) * 100vh);*/
     text-align: center;
-    margin: 6px auto;
-    display: block;
+    /*display: block;
+    /*margin: 6px auto;
     padding: 12px 0;
-    background-color: var(--theme-color); /* please work for the love of God */
-    color: white;
-    border-radius: 12px; /* it is fucking round we did it */
+    /*background-color: var(--theme-color); /* please work for the love of God */
+    /*color: white;
+    /*border-radius: 12px; /* it is fucking round we did it */
 }
