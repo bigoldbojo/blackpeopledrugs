@@ -169,12 +169,12 @@ a:active {
 }
 
 #footer p {
-    /*width: calc(calc(4 / 3) * 100vh);*/
     text-align: center;
-    /*display: block;
-    /*margin: 6px auto;
-    padding: 12px 0;
-    /*background-color: var(--theme-color); /* please work for the love of God */
-    /*color: white;
-    /*border-radius: 12px; /* it is fucking round we did it */
+    color: black;
+    margin: 12px auto;
+    padding: 12px;
+    background-color: var(--theme-color); /* please work for the love of God */
+    background-image: linear-gradient(to right, white , #888);
+    width: auto;
+    border-radius: 12px;
 }
