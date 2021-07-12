@@ -1,0 +1,68 @@
+:root {
+    --theme-color: #213687;
+    background-size: 100%;
+}
+
+#downbad {
+    float: left;
+}
+
+#rage {
+    float: center;
+}
+
+#FAQ h2 {
+    font-size: large;
+}
+
+#FAQ h3 {
+    font-size: medium;
+    margin: 0;
+}
+
+#FAQ {
+    width: auto;
+    /*margin-left: 50px;*/ /* Removed indent. */
+}
+
+#FAQ .FAQ-Title {
+    color: var(--theme-color);
+}
+
+#FAQ .FAQ-Q {
+    margin: 0 0 6px 0;
+    color: white;
+}
+
+#FAQ .FAQ-A {
+    margin: 6px 0 0 0;
+    color: white;
+}
+
+#FAQ a:link {
+    color: white;
+}
+
+#FAQ a:visited {
+    color: white;
+}
+
+#FAQ a:hover {
+    color: white;
+}
+
+#FAQ a:active {
+    color: white;
+}
+
+#FAQ .QnA {
+    margin: 6px 0;
+    padding: 12px;
+    background-color: var(--theme-color); /* please work for the love of God */
+    width: auto;
+    border-radius: 12px;
+}
+
+#FAQ .embed-map {
+    margin: 12px 0 0 0;
+}
