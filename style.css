@@ -67,12 +67,22 @@
     color: white;
 }
 
-#navigation ul li a:hover, #navigation ul li a.active:hover {
+#navigation ul li a:hover {
+    background-color: #aaa;
+    color: black;
+}
+
+#navigation ul li a.active:hover {
     background-color: #555;
     color: white;
 }
 
-#navigation ul li a:active, #navigation ul li a.active:active {
+#navigation ul li a:active {
+    background-color: #ddd;
+    color: black;
+}
+
+#navigation ul li a.active:active {
     background-color: #111;
     color: white;
 }

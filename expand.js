@@ -11,13 +11,13 @@ function collapse() {
 }
 
 function expandButtonMouseDown() {
-    document.getElementById("expandButton").style.backgroundColor = "#111";
-    document.getElementById("expandButton").style.color = "white";
+    document.getElementById("expandButton").style.backgroundColor = "#ddd";
+    document.getElementById("expandButton").style.color = "black";
 }
 
 function expandButtonMouseOver() {
-    document.getElementById("expandButton").style.backgroundColor = "#555";
-    document.getElementById("expandButton").style.color = "white";
+    document.getElementById("expandButton").style.backgroundColor = "#aaa";
+    document.getElementById("expandButton").style.color = "black";
 }
 
 function expandButtonMouseOut() {
