@@ -59,8 +59,8 @@
     color: black;
     margin: 12px auto;
     padding: 12px;
-    background-color: var(--theme-color); /* please work for the love of God */
-    background-image: linear-gradient(to right, white , #888);
+    background-color: #fff0; /* please work for the love of God */
+    background-image: linear-gradient(to right, #fffb , #888b);
     width: auto;
     border-radius: 12px;
 }
