@@ -1,5 +1,7 @@
 :root {
     --theme-color: white;
+    background-image: url('/blackpeopledrugs/media/bannerDark.jpg');
+    background-size: 100%;
 }
 
 #FAQ h2 {
