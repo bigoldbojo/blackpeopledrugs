@@ -102,13 +102,15 @@
 
 #navigation button {
     position: fixed;
-    top: 2px;
+    top: 0px;
     font-size: 18px;
-    height: 44px;
+    height: 48px;
     border: none;
     border-radius: 12px;
     width: 96px;
     margin: 6px 12px;
+    padding: 0;
+    display: inline-block;
 }
 
 #navigation button#collapseButton {
