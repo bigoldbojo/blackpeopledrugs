@@ -27,14 +27,16 @@
         <link rel="shortcut icon" type="image/png" href="https://bellbaxterhighschool.org.uk/favicon.ico"/>
 
         <script src="/blackpeopledrugs/scripts/panelButton.js"></script>
+        <script src="/blackpeopledrugs/scripts/filterBox.js"></script>
     </head>
     <body>
         <div id="container">
             <nav id="navigation"> <!--
 	            <button id="expandButton" type="button" onclick="expand()" onmouseover="expandButtonMouseOver()" onmousedown="expandButtonMouseDown()" onmouseout="expandButtonMouseOut()">Expand</button>
                 <button id="collapseButton" type="button" onclick="collapse()" onmouseover="collapseButtonMouseOver()" onmousedown="collapseButtonMouseDown()" onmouseout="collapseButtonMouseOut()">Collapse</button>
+                <input type="text" id="filter-box" onkeyup="filterMenu()" placeholder="Filter...">
 				-->
-                <ul>
+                <ul id="primary-nav">
 					<li>
 						<a class="active" href="/blackpeopledrugs/">
 							Home

@@ -27,13 +27,15 @@
         <link rel="shortcut icon" type="image/png" href="https://bellbaxterhighschool.org.uk/favicon.ico"/>
 
         <script src="/blackpeopledrugs/scripts/panelButton.js"></script>
+        <script src="/blackpeopledrugs/scripts/filterBox.js"></script>
     </head>
-    <body onload="expand()">
+    <body>
         <div id="container">
             <nav id="navigation">
 	            <button id="expandButton" type="button" onclick="expand()" onmouseover="expandButtonMouseOver()" onmousedown="expandButtonMouseDown()" onmouseout="expandButtonMouseOut()">Expand</button>
                 <button id="collapseButton" type="button" onclick="collapse()" onmouseover="collapseButtonMouseOver()" onmousedown="collapseButtonMouseDown()" onmouseout="collapseButtonMouseOut()">Collapse</button>
-				<ul>
+				<input type="text" id="filter-box" onkeyup="filterMenu()" placeholder="Filter...">
+                <ul id="primary-nav">
 					<li>
 						<a href="/blackpeopledrugs/">
 							Home
@@ -46,7 +48,7 @@
 					</li>
 				</ul>
                 <div id="left-panel">
-                    <ul>
+                    <ul id="secondary-nav">
                         <li>
                             <a href="/blackpeopledrugs/shop/items/weed1/">
                                 Weed 1

@@ -104,7 +104,7 @@
     color: white;
 }
 
-#navigation button {
+#navigation button, #navigation input {
     position: fixed;
     top: 0px;
     font-size: 18px;
@@ -115,6 +115,19 @@
     margin: 6px 12px;
     padding: 0;
     display: inline-block;
+}
+
+#navigation button {
+    width: 96px;
+}
+
+#navigation input#filter-box {
+    width: 276px;
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 12px;
+    display: none;
 }
 
 #navigation button#collapseButton {
