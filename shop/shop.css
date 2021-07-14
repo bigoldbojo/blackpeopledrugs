@@ -37,7 +37,7 @@
     margin: 12px auto;
     padding: 12px;
     background-color: #fff0; /* please work for the love of God */
-    background-image: linear-gradient(to right, #fffb , #888b);
+    background-image: linear-gradient(to right, #fffb , #aaab);
     width: auto;
     border-radius: 12px;
 }

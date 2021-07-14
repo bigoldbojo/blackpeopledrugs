@@ -3,12 +3,7 @@
     background-image: url('/blackpeopledrugs/media/bannerDark.jpg');
 }
 
-#content img {
-    display: inline-block;
-    max-width: 540px;
-}
-
-#content .product {
+#product {
     color: black;
     margin: 12px auto;
     padding: 12px;
@@ -16,4 +11,12 @@
     background-image: linear-gradient(to right, #fffb , #888b);
     width: auto;
     border-radius: 12px;
+}
+
+#product img {
+    float: left;
+    max-width: 540px;
+    height:80%;
+    margin: 0px 12px 0px 0px;
+    border-radius: 6px;
 }

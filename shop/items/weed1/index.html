@@ -28,7 +28,7 @@
 
         <script src="/blackpeopledrugs/scripts/panelButton.js"></script>
     </head>
-    <body>
+    <body onload="expand()">
         <div id="container">
             <nav id="navigation">
 	            <button id="expandButton" type="button" onclick="expand()" onmouseover="expandButtonMouseOver()" onmousedown="expandButtonMouseDown()" onmouseout="expandButtonMouseOut()">Expand</button>
@@ -68,12 +68,13 @@
                 <h3>
                     Weed 1
                 </h3>
-                <span class="product">
+                <div id="product">
                     <img src="/blackpeopledrugs/media/weed1.jpg">
                     <p>
                         This is our first weed. This is very good weed. We smoke this weed every day, and it smokes us. Matty got fukin smoked last night my guy. I think he couldn't handle it. I told him he didn't burn and he took that personally. Seems like I was right though, because even a part-time blazer has some tolerance to weed... but I guess this is just some potent shit. Didn't affect me that bad though, I'm just built like that. I could still feel my melanin tingling with this shit though.
                     </p>
-                </span>
+                    <div class="clearLeft"></div>
+                </div>
                 <footer id="footer">
                     <p>We aren't drug dealers btw, this shop is not functional</p>
                     <p>&copy; Black People Drugs 2021.</p>
