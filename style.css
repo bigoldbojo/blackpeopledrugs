@@ -75,33 +75,33 @@
 }
 
 #navigation ul li a:link, #navigation ul li a:visited {
-    background-color: #fff;
-    color: black;
-}
-
-#navigation ul li a.active:link, #navigation ul li a.active:visited {
     background-color: #333;
     color: white;
 }
 
-#navigation ul li a:hover {
-    background-color: #aaa;
+#navigation ul li a.active:link, #navigation ul li a.active:visited {
+    background-color: white;
     color: black;
 }
 
-#navigation ul li a.active:hover {
+#navigation ul li a:hover {
     background-color: #555;
     color: white;
 }
 
-#navigation ul li a:active {
-    background-color: #ddd;
+#navigation ul li a.active:hover {
+    background-color: #aaa;
     color: black;
 }
 
-#navigation ul li a.active:active {
+#navigation ul li a:active {
     background-color: #111;
     color: white;
+}
+
+#navigation ul li a.active:active {
+    background-color: #ddd;
+    color: black;
 }
 
 #navigation button, #navigation input {
@@ -123,8 +123,8 @@
 
 #navigation input#filter-box {
     width: 276px;
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 12px;
     display: none;
     left: 96px;
@@ -137,14 +137,14 @@
 }
 
 #navigation button#collapseButton {
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: black;
     display: none;
 }
 
 #navigation button#expandButton {
-    background-color: #fff;
-    color: black;
+    background-color: #333;
+    color: white;
     display: inline-block;
 }
 

@@ -13,31 +13,31 @@ function collapse() {
 }
 
 function expandButtonMouseDown() {
-    document.getElementById("expandButton").style.backgroundColor = "#ddd";
-    document.getElementById("expandButton").style.color = "black";
+    document.getElementById("expandButton").style.backgroundColor = "#111";
+    document.getElementById("expandButton").style.color = "white";
 }
 
 function expandButtonMouseOver() {
-    document.getElementById("expandButton").style.backgroundColor = "#aaa";
-    document.getElementById("expandButton").style.color = "black";
+    document.getElementById("expandButton").style.backgroundColor = "#555";
+    document.getElementById("expandButton").style.color = "white";
 }
 
 function expandButtonMouseOut() {
-    document.getElementById("expandButton").style.backgroundColor = "white";
-    document.getElementById("expandButton").style.color = "black";
+    document.getElementById("expandButton").style.backgroundColor = "#333";
+    document.getElementById("expandButton").style.color = "white";
 }
 
 function collapseButtonMouseDown() {
-    document.getElementById("collapseButton").style.backgroundColor = "#111";
-    document.getElementById("collapseButton").style.color = "white";
+    document.getElementById("collapseButton").style.backgroundColor = "#ddd";
+    document.getElementById("collapseButton").style.color = "black";
 }
 
 function collapseButtonMouseOver() {
-    document.getElementById("collapseButton").style.backgroundColor = "#555";
-    document.getElementById("collapseButton").style.color = "white";
+    document.getElementById("collapseButton").style.backgroundColor = "#aaa";
+    document.getElementById("collapseButton").style.color = "black";
 }
 
 function collapseButtonMouseOut() {
-    document.getElementById("collapseButton").style.backgroundColor = "#333";
-    document.getElementById("collapseButton").style.color = "white";
+    document.getElementById("collapseButton").style.backgroundColor = "white";
+    document.getElementById("collapseButton").style.color = "black";
 }
