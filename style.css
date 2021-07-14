@@ -207,12 +207,16 @@ a:active {
 #footer p {
     text-align: center;
     color: black;
-    margin: 6px auto;
+    margin: 12px auto 0px;
     padding: 12px;
     background-color: #fff0; /* please work for the love of God */
     background-image: linear-gradient(to right, #fffb , #aaab);
     width: auto;
     border-radius: 12px;
+}
+
+#footer p.top {
+    margin: 6px auto 0px;
 }
 
 .clearLeft {
