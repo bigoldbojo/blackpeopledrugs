@@ -76,31 +76,37 @@
 
 #navigation ul li a:link, #navigation ul li a:visited {
     background-color: #333;
+    background-image: linear-gradient(to right, #444 , #222);
     color: white;
 }
 
 #navigation ul li a.active:link, #navigation ul li a.active:visited {
     background-color: white;
+    background-image: linear-gradient(to right, #ddd , #aaa);
     color: black;
 }
 
 #navigation ul li a:hover {
     background-color: #555;
+    background-image: linear-gradient(to right, #666 , #333);
     color: white;
 }
 
 #navigation ul li a.active:hover {
     background-color: #aaa;
+    background-image: linear-gradient(to right, #bbb , #888);
     color: black;
 }
 
 #navigation ul li a:active {
     background-color: #111;
+    background-image: linear-gradient(to right, #222 , #111);
     color: white;
 }
 
 #navigation ul li a.active:active {
     background-color: #ddd;
+    background-image: linear-gradient(to right, #fff , #bbb);
     color: black;
 }
 
@@ -124,6 +130,7 @@
 #navigation input#filter-box {
     width: 276px;
     background-color: white;
+    background-image: linear-gradient(to right, #ddd , #aaa);
     color: black;
     border-radius: 12px;
     display: none;
@@ -137,7 +144,7 @@
 }
 
 #navigation button#collapseButton {
-    background-color: white;
+    background-image: linear-gradient(to right, #fff , #aaa);
     color: black;
     display: none;
 }
