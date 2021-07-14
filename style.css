@@ -108,26 +108,32 @@
     position: fixed;
     top: 0px;
     font-size: 18px;
-    height: 48px;
     border: none;
     border-radius: 12px;
+    height: 48px;
     width: 96px;
-    margin: 6px 12px;
     padding: 0;
     display: inline-block;
 }
 
 #navigation button {
     width: 96px;
+    margin: 6px 12px;
 }
 
 #navigation input#filter-box {
     width: 276px;
-    background-color: white;
-    color: #333;
-    border: 2px solid #333;
+    background-color: #333;
+    color: white;
     border-radius: 12px;
     display: none;
+    left: 96px;
+    margin: 6px 24px;
+}
+
+#navigation input#filter-box[type="text"] {
+    box-sizing: border-box;
+    padding-left: 12px;
 }
 
 #navigation button#collapseButton {
