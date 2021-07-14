@@ -144,6 +144,7 @@
 }
 
 #navigation button#collapseButton {
+    background-color: white;
     background-image: linear-gradient(to right, #fff , #aaa);
     color: black;
     display: none;
@@ -151,6 +152,7 @@
 
 #navigation button#expandButton {
     background-color: #333;
+    background-image: linear-gradient(to right, #444 , #222);
     color: white;
     display: inline-block;
 }
