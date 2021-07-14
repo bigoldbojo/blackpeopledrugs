@@ -177,7 +177,7 @@
 }
 
 #content {
-    width: calc(calc(4 / 3) * 100vh); /* Please work I beg you */
+    width: min(70vw, calc(calc(4 / 3) * 100vh)); /* Please work I beg you */
     display: block;
     margin: 0 auto;
     padding: 12px 12px;
@@ -208,7 +208,7 @@ a:active {
 }
 
 #footer {
-    width: calc(calc(4 / 3) * 100vh);
+    width: min(70vw, calc(calc(4 / 3) * 100vh));
     display: block;
     margin: 0px auto;
 }

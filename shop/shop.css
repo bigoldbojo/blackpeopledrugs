@@ -19,7 +19,17 @@
 
 #shop section.item {
     display: inline-block;
-    width: 380px;
+    width: calc(33.3333% - 32px);
+}
+
+#shop .item {
+    color: black;
+    margin: 12px 0px;
+    padding: 12px;
+    background-color: #fff0; /* please work for the love of God */
+    background-image: linear-gradient(to right, #fffb , #aaab);
+    width: auto;
+    border-radius: 12px;
 }
 
 #shop section.left {
@@ -41,15 +51,5 @@
 #shop .item * {
     margin: 0 auto;
     border-radius: 6px;
-    width: 378px;
-}
-
-#shop .item {
-    color: black;
-    margin: 12px 0px;
-    padding: 12px;
-    background-color: #fff0; /* please work for the love of God */
-    background-image: linear-gradient(to right, #fffb , #aaab);
-    width: auto;
-    border-radius: 12px;
+    max-width: 100%
 }
