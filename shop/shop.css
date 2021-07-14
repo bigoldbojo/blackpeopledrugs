@@ -7,6 +7,7 @@
     color: black;
     width: 100%;
     margin: 0px;
+    padding: 0px;
     /*margin-left: 50px;*/ /* Removed indent. */
 }
 
@@ -17,9 +18,20 @@
 }
 
 #shop section.item {
-    margin: 6px 3px;
     display: inline-block;
-    width: 378px;
+    width: 380px;
+}
+
+#shop section.left {
+    margin: 3px 3px 3px 0px;
+}
+
+#shop section.center {
+    margin: 3px 3px 3px 3px;
+}
+
+#shop section.right {
+    margin: 3px 0px 3px 3px;
 }
 
 #shop a:link, #shop a:visited, #shop a:hover, #shop a:active {
@@ -34,7 +46,7 @@
 
 #shop .item {
     color: black;
-    margin: 12px auto;
+    margin: 12px 0px;
     padding: 12px;
     background-color: #fff0; /* please work for the love of God */
     background-image: linear-gradient(to right, #fffb , #aaab);
