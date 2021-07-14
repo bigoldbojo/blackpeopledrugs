@@ -215,6 +215,10 @@ a:active {
     border-radius: 12px;
 }
 
+#footer p.top {
+    margin: 6px auto 0px;
+}
+
 .clearLeft {
     clear: left;
 }
