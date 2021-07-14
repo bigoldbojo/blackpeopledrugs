@@ -1,0 +1,43 @@
+:root {
+    --theme-color: white;
+    background-image: url('/blackpeopledrugs/media/bannerDark.jpg');
+}
+
+#shop {
+    color: black;
+    width: 100%;
+    margin: 0px;
+    /*margin-left: 50px;*/ /* Removed indent. */
+}
+
+#shop .item-tag {
+    padding: 6px 0px;
+    text-align: center;
+    margin: 6px;
+}
+
+#shop section.item {
+    margin: 6px 3px;
+    display: inline-block;
+    width: 378px;
+}
+
+#shop a:link, #shop a:visited, #shop a:hover, #shop a:active {
+    color: black;
+}
+
+#shop .item * {
+    margin: 0 auto;
+    border-radius: 6px;
+    width: 378px;
+}
+
+#shop .item {
+    color: black;
+    margin: 12px auto;
+    padding: 12px;
+    background-color: #fff0; /* please work for the love of God */
+    background-image: linear-gradient(to right, #fffb , #888b);
+    width: auto;
+    border-radius: 12px;
+}

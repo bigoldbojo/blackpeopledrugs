@@ -1,0 +1,19 @@
+:root {
+    --theme-color: white;
+    background-image: url('/blackpeopledrugs/media/bannerDark.jpg');
+}
+
+#content img {
+    display: inline-block;
+    max-width: 540px;
+}
+
+#content .product {
+    color: black;
+    margin: 12px auto;
+    padding: 12px;
+    background-color: #fff0; /* please work for the love of God */
+    background-image: linear-gradient(to right, #fffb , #888b);
+    width: auto;
+    border-radius: 12px;
+}

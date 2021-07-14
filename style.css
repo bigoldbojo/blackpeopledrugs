@@ -12,26 +12,28 @@
     width: 100%;
 }
 
-#titlefsite {
+#header h1, #header h2 {
     text-align: center;
     align-items: flex-start;
     position: relative;
-    top: 0px;
-    margin: 72px auto 32px;
     padding: 0 auto;
+    text-align: center;
+    align-items: flex-start;
+    position: relative;
+    padding: 32px auto;
     /*font-family: 'Lucida Sans';*/
-    font-size: 100px;
     color: var(--theme-color);
 }
 
 #header h1 {
-    text-align: center;
-    align-items: flex-start;
-    position: relative;
-    padding: 0 auto;
-    /*font-family: 'Lucida Sans';*/
-    font-size: 100px;
-    color: var(--theme-color);
+    font-size: 96px;
+    top: 0px;
+    margin: 96px auto 56px;
+}
+
+#header h2 {
+    font-size: 48px;
+    margin: -36px auto 36px;
 }
 
 #navigation {
@@ -55,7 +57,7 @@
     text-align:center;
 }
 
-#navigation ul li {
+#navigation ul li:not(#navigation #left-panel ul li) {
     background-color: #1110;
     margin: 6px 0px;
     padding: 0;
@@ -133,10 +135,17 @@
     margin: 0 0;
     top: 60px;
     left: 0px;
-    width: 120px;
+    width: auto;
     height: 100%;
     z-index: 1;
     background-color: #222c;
+}
+
+#left-panel ul li {
+    background-color: #1110;
+    margin: 6px 12px;
+    padding: 0;
+    display: block;
 }
 
 #content {
@@ -145,11 +154,11 @@
     margin: 0 auto;
     padding: 12px 12px;
     background-color: #fff0; /* please work for the love of God */
-    background-image: linear-gradient(#444b , #222b);
+    background-image: linear-gradient(#444c , #222c);
     border-radius: 24px;
 }
 
-#content > *:not(#footer, #FAQ) {
+#content > *:not(#footer, #FAQ, #shop) {
     padding: 6px 0px;
     margin: 0 12px;
 }
